@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <!--Demo Servlet-->
+    <servlet>
+        <servlet-name>DemoServlet</servlet-name>
+        <servlet-class>servletdemo.DemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DemoServlet</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <!--Demo Servlet end-->
+    
+    <!--User Controller-->
+    <servlet>
+        <servlet-name>UserController</servlet-name>
+        <servlet-class>servletdemo.UserController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserController</servlet-name>
+        <url-pattern>/users</url-pattern>
+    </servlet-mapping>
+    <!--UserController end-->
+    
+    <!--Second Servlet-->
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>servletwithhttpservlet.SecondServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SecondServlet</servlet-name>
+        <url-pattern>/names</url-pattern>
+    </servlet-mapping>
+    <!--Second Servlet end-->
+    
+    <!--GeneralFormProcessController Servlet-->
+    <servlet>
+        <servlet-name>GeneralFormProcessController</servlet-name>
+        <servlet-class>servletwithhttpservlet.GeneralFormProcessController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GeneralFormProcessController</servlet-name>
+        <url-pattern>/process-form</url-pattern>
+    </servlet-mapping>
+    <!--GeneralFormProcessController Servlet end-->
+    
+    
+    <!--StudentController Servlet-->
+    <servlet>
+        <servlet-name>StudentController</servlet-name>
+        <servlet-class>servletwithhttpservlet.StudentController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentController</servlet-name>
+        <url-pattern>/add-student</url-pattern>
+    </servlet-mapping>
+    <!--StudentController Servlet end-->
+    
+    <!--StudentController Servlet-->
+    <servlet>
+        <servlet-name>StudentAddInfo</servlet-name>
+        <servlet-class>servletwithhttpservlet.StudentAddInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentAddInfo</servlet-name>
+        <url-pattern>/add-student-info</url-pattern>
+    </servlet-mapping>
+    <!--StudentAddInfo Servlet end-->
+    
+    <!--CookieExample Servlet-->
+    <servlet>
+        <servlet-name>CookieExample</servlet-name>
+        <servlet-class>servletwithhttpservlet.CookieExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieExample</servlet-name>
+        <url-pattern>/add-cookie</url-pattern>
+    </servlet-mapping>
+    <!--CookieExampleServlet end-->
+    
+    <!--ReadCookie Servlet-->
+    <servlet>
+        <servlet-name>ReadCookie</servlet-name>
+        <servlet-class>servletwithhttpservlet.ReadCookie</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadCookie</servlet-name>
+        <url-pattern>/read-cookie</url-pattern>
+    </servlet-mapping>
+    <!--ReadCookie end-->
+    
+    <!--DeleteCookie Servlet-->
+    <servlet>
+        <servlet-name>DeleteCookie</servlet-name>
+        <servlet-class>servletwithhttpservlet.DeleteCookie</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCookie</servlet-name>
+        <url-pattern>/delete-cookie</url-pattern>
+    </servlet-mapping>
+    <!--DeleteCookie end-->
+    
+    <!--Session Example-->
+    <servlet>
+        <servlet-name>SessionExample</servlet-name>
+        <servlet-class>servletwithhttpservlet.SessionExample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionExample</servlet-name>
+        <url-pattern>/create-session</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ReadSession</servlet-name>
+        <servlet-class>servletwithhttpservlet.ReadSession</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ReadSession</servlet-name>
+        <url-pattern>/read-session</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RemoveSession</servlet-name>
+        <servlet-class>servletwithhttpservlet.RemoveSession</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>RemoveSession</servlet-name>
+        <url-pattern>/remove-session</url-pattern>
+    </servlet-mapping>
+    <!--Session Example End-->
+    
+    
+    <!--Ecommerce project-->
+    <servlet>
+        <servlet-name>ProductController</servlet-name>
+        <servlet-class>products.ProductController</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ProductController</servlet-name>
+        <url-pattern>/products</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ProductOperation</servlet-name>
+        <servlet-class>products.ProductOperation</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ProductOperation</servlet-name>
+        <url-pattern>/delete-product</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>ProductUpdate</servlet-name>
+        <servlet-class>products.ProductUpdate</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ProductUpdate</servlet-name>
+        <url-pattern>/update-product</url-pattern>
+    </servlet-mapping>
+    <!--Ecommerce project end-->
+    
+</web-app>

@@ -1,0 +1,4 @@
+The student name is Aakash Raj Shakya, address is Lagan Tole contact number is 9851320011 college name is NCCS College +2 percentage is 54% and date of birth is 2048/08/20.
+The student name is Sanam Maharjan, address is Manamaiju contact number is 9880888233 college name is ACHS College +2 percentage is 70% and date of birth is 2000/06/10.
+The student name is Lakpa Dolma Sherpa, address is Hattiban contact number is 9841212345 college name is Prasadi Academy +2 percentage is 50% and date of birth is 1998/09/12.
+The student name is Suja Maharjan, address is Kritipur, contact number is 9864321432, college name is ACHS, +2 percentage is 98% and date of birth is 1990/09/01.
